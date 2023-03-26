@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signoutbackground"
+    tools:context=".groupCreation">
+
+    <Button
+        android:id="@+id/creategroup"
+        android:layout_width="313dp"
+        android:layout_height="104dp"
+        android:background="@drawable/blue_round_button"
+
+        android:gravity="center"
+        android:text="Create Group"
+        android:textColor="#0F0F0F"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/joingroup"
+        android:layout_width="305dp"
+        android:layout_height="105dp"
+        android:background="@drawable/blue_round_button"
+        android:text="Join Group"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <EditText
+        android:id="@+id/creategroupid"
+        android:layout_width="349dp"
+        android:layout_height="47dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="GroupID"
+        android:inputType="textPersonName"
+        android:textColor="#070707"
+        android:textColorHint="#141313"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <EditText
+        android:id="@+id/joingoupid"
+        android:layout_width="349dp"
+        android:layout_height="47dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter GroupID"
+        android:inputType="textPersonName"
+        android:textColor="#0A0A0A"
+        android:textColorHint="#141313"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/backtohomepage"
+        android:layout_width="81dp"
+        android:layout_height="108dp"
+        android:background="@drawable/homepagesymbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

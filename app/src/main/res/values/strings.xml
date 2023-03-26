@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pay n Split</string>
+    <string name="upi_id">UPI_ID</string>
+    <string name="string_upi_id" />
+    <string name="scan_qr_code">Scan QR code</string>
+    <string name="send_by_upi">send by upi</string>
+</resources>

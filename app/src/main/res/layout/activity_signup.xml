@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signup"
+    android:background="@color/cardview_light_background">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/edit_round"
+            android:layout_gravity="center_horizontal"
+            android:text="User Registration"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#F0111111"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="371dp"
+            android:layout_height="39dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_round"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:textColor="#050505"
+            android:textColorHighlight="#111111"
+            android:textColorHint="#0C0C0C" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="371dp"
+            android:layout_height="37dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edit_round"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:textColor="#131212"
+            android:textColorHint="#141414" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="380dp"
+
+            android:layout_height="26dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/blue_round_button"
+            android:text="Signup" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="335dp"
+            android:layout_height="26dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/button_round"
+            android:text="Already Registered ? Login Here" />
+
+    </LinearLayout>
+
+</RelativeLayout>
